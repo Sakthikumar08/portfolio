@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header>
+       <!-- <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+          
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>-->
+        <nav>
+            <ul class="sidebar">
+              <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skill">Skill</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              
+            </ul>
+            <ul>
+              <li><a href="#" class="logo">Portfilo</a></li>
+              <li class="hideOnMobile"><a href="#home" class="active">Home</a></li>
+              <li class="hideOnMobile"><a href="#about">About</a></li>
+              <li class="hideOnMobile"><a href="#skill">Skill</a></li>
+              <li class="hideOnMobile"><a href="#services">Services</a></li>
+              <li class="hideOnMobile"><a href="#portfolio">Portfolio</a></li>
+              <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+              
+              <li class="menu-button" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars" ></i></a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Sakthi Kumar</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="www.linkedin.com/in/sakthi-kumar-93821225a"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Sakthikumar08"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+       <a href="image/CV.pdf" downloads class="btn">Download CV</a>
+    </div> 
+    <div class="home-img">
+        <img src="image/no backgrd pic.png">
+    </div>
+    </section>
+
+    <!--About section-->
+    <section class="about" id="about">
+<div class="about-container">
+    <div class="row">
+        <div class="about-img">
+          <div class="img-content"><img src="image/1718297826494 (1).jpeg"></div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <p> Passionate Electronics and Communication Engineering major transitioning into web development and data analytics. Highlighting journey from average student to aspiring software engineer. Proficient in HTML, CSS, JavaScript, React, Angular, and data analytics. Eager to contribute to innovative projects, lead teams, and stay at the forefront of technology. Open to networking and collaboration.</p>            
+           <!-- <div class="tab-title">
+                <p class="tab-link active-link">Skills</p>
+                <p class="tab-link">Certification</p>
+                <p class="tab-link">Education</p>
+            </div>
+
+            <div class="tab-contents-skills">
+                <ul>
+                    
+                    <li><span>Web developer</span><br>HTML, CSS ,Javascript ,React JS , MySQL ,MangoDB</li>
+                    
+                    <li><span>Data Analytics</span><br>MySQL ,Excel ,Python ,Numpy ,PowerBI</li>
+                   
+                    <li><span>App Development</span><br>Flutter flow ,Dart ,Flutter ,React</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents-certificate"></div>
+                <ul>
+                    <li>Introduction to programming in C [NPTEL] -<span>link</span></li>
+                    <li>Introduction to Frontend Development-<span>link</span></li>
+                    <li>Introduction for MongoDB for Student-<span>link</span></li>
+                    <li>Java for beginners: Step-by-step hands-on guide to Java-<span>link</span></li>
+                    <li>Programming with JavaScript-<span>link</span></li>
+                    <li>Getting Started with Data Analytics on AWS-<span>link</span></li>
+                </ul>
+            </div>
+
+            <div class="tab-contents-education"></div>
+                <ul>
+                    <li><span>St.Joseph's College Of Engineering</span> (2022-present)<br>Chennai | Electronics and Communication Engineering<br>Cum CGPA : 8.77</li>
+                    
+                    <li><span>Vivekanandha Matriculation HIgher Secondary School</span>2022<br>Pondicherry | Cut-off : 189</li>
+                </ul>
+            </div>-->
+
+        </div>
+    </div>
+</div>
+    </section>
+
+    <!----Skills-->
+    <section class="skill" id="skill">
+      <h2 class="heading">My <span>Skills</span></h2>
+      
+      <div class="container-1">
+        <h1 class="heading1">Technical Skills</h1>
+         <div class="technical-bar">
+           <div class="bar"><i style="color: #F06529;" class="fa-brands fa-html5"></i>
+             <div class="info">
+              <span>HTML</span>
+             </div>
+             <div class="progress-line html">
+              <span></span>
+             </div>
+           </div>
+
+           <div class="bar"><i style="color:#264de4" class="fa-brands fa-css3-alt"></i>
+            <div class="info">
+             <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+             <span></span>
+            </div>
+          </div>
+
+          <div class="bar"><i style="color:#b0bc1e" class="fa-brands fa-js"></i>
+            <div class="info">
+             <span>JavaScript</span>
+            </div>
+            <div class="progress-line Javascript">
+             <span></span>
+            </div>
+          </div>
+
+          <div class="bar"><i style="color:#c32ec9" class="fa-brands fa-python"></i>
+            <div class="info">
+             <span>Python</span>
+            </div>
+            <div class="progress-line python">
+             <span></span>
+            </div>
+          </div>
+
+          <div class="bar"><i style="color:#61DBFB" class="fa-brands fa-react"></i>
+            <div class="info">
+             <span>React</span>
+            </div>
+            <div class="progress-line React">
+             <span></span>
+            </div>
+          </div>
+
+          <div class="bar"><i style="color:#f89820" class="fa-brands fa-java"></i>
+            <div class="info">
+             <span>Java</span>
+            </div>
+            <div class="progress-line java">
+             <span></span>
+            </div>
+          </div>
+            
+         </div>
+      </div>
+    </section>
+    
+    <!--Service section-->
+    <section class="services" id="services">
+       <h2 class="heading">My <span>Services</span></h2>
+       <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Developer</h3>
+            <p>Experienced in the full-scale development of the project using both frontend and backend technologies, competent web developer capable of creating dynamic and user-friendly web applications with good interaction, which take into account the implementation of responsive design  and updating my knowledge in accordance with the latest trends developed in web development.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Data Analytics</h3>
+            <p>A UI/UX designer typically works in intuitive and user-centered designs, which raise the user experience. In this regard, you are skilled in wireframing, prototyping, and visually robustly interface design. Your work is not only aesthetically pleasing but perfectly functional. You pay attention to feedback from users and usability testing to ensure satisfactory interaction on different digital platforms.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-brands fa-figma"></i>
+            <h3>UI/UX Design</h3>
+            <p>Data analytics specialists can read complex patterns and cases to extract valuable insights. Often, you use statistical techniques, data visualization tools, or analytical software in an attempt to detect trends, patterns, or relationships. Transform raw data into actionable recommendations drives the decision-making process and optimizes processes throughout multiple projects and industries.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+       </div>
+    </section>
+    <!--portfolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <!--<div class="portfolio-container">
+            <div class="potfolio-box">
+                <img src="image/project.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, praesentium?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+
+                </div>
+
+                <img src="image/project.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, praesentium?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    
+                </div>
+
+                <img src="image/project.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, praesentium?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    
+                </div>
+
+                <img src="image/project.jpg">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, praesentium?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    
+                </div>
+            </div>
+        </div>-->
+        
+
+          <div class="full">
+          <div class="container">
+            <div class="card">
+              <div class="face face1 facea">
+                <div class="content">
+                  <img src="image/sports.jpg" />
+                  <h3>Sports Equiment</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                    "Sport Equipment Hub" is an online store offering a variety of sports gear with secure payments and easy navigation. It ensures a smooth shopping experience for athletes and fitness enthusiasts.
+                  </p>
+                  <a href="https://github.com/Sakthikumar08/sport-kit-web">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="face face1 faceb">
+                <div class="content">
+                  <img src="image/book.jpeg" style="align-items: center;" />
+                  <h3>BookSky Website</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                    "Booksky" enables users to easily add and manage their book collection by entering details like title, author, and genre. It offers a simple interface for organizing and tracking personal libraries.                  </p>
+                  <a href="https://sakthikumar08.github.io/booksky-project/">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="face face1 facec">
+                <div class="content">
+                  <img src="image/slider.jpeg" />
+                  <h3>Image Slider</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                   
+                    The image slider component enables smooth browsing through a gallery with customizable transitions. Its responsive design provides an engaging way to showcase images or artwork.                  </p>
+                  <a href="https://sakthikumar08.github.io/image-flipper/">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="face face1 faced">
+                <div class="content">
+                  <img src="image/login.jpeg"style="align-items: center;" />
+                  <h3>Login & Sign-in</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p>
+                    The project involves developing a secure login and sign-in website with user authentication and authorization features, ensuring data privacy and protection.
+                  </p>
+                  <a href="https://sakthikumar08.github.io/AnimatedLoginandSignUpForm/">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            
+              <div class="card">
+                <div class="face face1 facee">
+                  <div class="content">
+                    <img src="image/dashboard.jpeg"style="align-items: center;" />
+                    <h3>DashBoard</h3>
+                  </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                    <p>
+                      The dashboard website provides a centralized platform for viewing and managing key data metrics. It features interactive charts and real-time updates for efficient decision-making.                    </p>
+                    <a href="https://github.com/Sakthikumar08/dashboardproject">Read More</a>
+                  </div>
+                </div>
+              </div>
+   
+            
+        </div>
+        </div>
+    </section>
+
+    <!--Contact page-->
+    <section class="contact" id="contact">
+     <div class="contact-container">
+      <div class="row">
+        <div class="contact-left">
+          <h2 class="heading"><span>Contact</span> Me</h2>
+          <p><i class="fa-solid fa-paper-plane"></i>sakthikumar21sk@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9566674323</p>
+        </div>
+        <div class="contact-right">
+          <form>
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="text" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+        </div>
+      </div>
+     </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
